@@ -1,0 +1,29 @@
+{
+  "name": "step-wizard-library",
+  "version": "1.0.0",
+  "description": "This library simplifies creating step-by-step wizards, addressing the limitations of existing solutions. Enjoy!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn build",
+    "clean": "rm -rf dist",
+    "postclean": "yarn clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalmanDEmad/step-wizard-library"
+  },
+  "author": "Salman Emad",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "tscpaths": "^0.0.10",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "step-wizard-library": "^1.0.0"
+  }
+}
