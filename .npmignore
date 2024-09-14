@@ -3,3 +3,4 @@
 /tests
 *.ts
 *.tsx
+.gitignore
